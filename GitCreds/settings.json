@@ -1,0 +1,23 @@
+﻿{ 
+  "targetsToRemove": [
+    {
+      "target": "git:https://github.com"
+    },
+    {
+      "target": "vscodevscode.github-authentication/github.auth"
+    }
+  ],
+
+  "profiles": [
+    {
+      "active": true,
+      "name": "Test 1",
+      "email": "test1@test.test"
+    },
+    {
+      "active": false,
+      "name": "Test 2",
+      "email": "test2@test.test"
+    }
+  ]
+}
